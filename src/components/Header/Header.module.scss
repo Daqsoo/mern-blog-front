@@ -11,8 +11,8 @@
 }
 
 .logo {
-  background-color: black;
-  color: #fff;
+  background-color: #4361ee;
+  color: Black;
   font-weight: 700;
   line-height: 35px;
   text-transform: uppercase;
@@ -22,7 +22,9 @@
   text-decoration: none;
 
   &:hover {
-    background-color: #4361ee;
+    transition: 0.5s ease;
+    background-color:black;
+    color: #fff;
   }
 }
 
