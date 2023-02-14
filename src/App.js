@@ -14,7 +14,7 @@ function App() {
           <Route path="/posts/:id" element={<FullPost />}></Route>
           <Route path="/add-post" element={<AddPost />}></Route>
           <Route path="/login" element={<Login />}></Route>
-          <Route path="/register" element={<Registration />}></Route>
+          <Route path="/" element={<Registration />}></Route>
         </Routes>
       </Container>
     </>
